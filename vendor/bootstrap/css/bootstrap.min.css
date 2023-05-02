@@ -41,9 +41,11 @@
 ::after,
 ::before {
     box-sizing: border-box;
+    width: auto;
 }
 
- @media screen and (max-width:900px) {
+
+ /* @media screen and (max-width:900px) {
     *,
     ::after,
     ::before {
@@ -51,7 +53,7 @@
         
     }
     
-} 
+}  */
 
 
 html {
