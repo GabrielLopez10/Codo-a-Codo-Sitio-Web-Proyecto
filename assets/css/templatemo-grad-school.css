@@ -3,12 +3,20 @@
 @import url(fontawesome.css);
 @import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">");
 
-/* *{
+
+]* {
   box-sizing: border-box;
-} */
+  /* width: 100%; */
+}
+
+/* html {
+  width: 100%;  
+}
+ */
 
 body {
     font-family: 'Montserrat', sans-serif;
+   /*  width:auto; */
 }
 
 /* Basic */
@@ -79,14 +87,15 @@ p {
 }
 
 a.menu-link { display: none; }
+/* menu tres lineas o puntos ubicación */
 
 @media screen and (max-width: 950px) {
   a.menu-link {
     float: right;
     display: block;
     font-size: 36px;
-    color: #fff;
-    padding-right: 30px;
+    color: #ffffff;
+    padding-right: 10%;
     padding-top: 13px;
   }
   nav[role="navigation"] {
@@ -161,15 +170,16 @@ a.menu-link { display: none; }
       margin-left: 5px!important;
   }
 }
-
-@media screen and (max-width: 522px) {
+/* Tamaño logo en pantalla */
+@media screen and (max-width: 640px) {
   .main-header .logo {
-      /* padding-left: 80px!important; */
+      padding-left:10%!important; 
       text-align: center;
       margin-right: 10px;
+      width: 50%;
   }
 }
-
+/* franja azul del header */
 .main-header {
     background-color: rgba(22,34,57,0.95);
     height: 80px;
@@ -177,6 +187,13 @@ a.menu-link { display: none; }
     z-index: 12;
     width: 100%;
     top: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .main-header {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .main-header .logo {
@@ -200,11 +217,11 @@ a.menu-link { display: none; }
     float: right;
     padding-right: 60px;
 }
-
+/* menu desplegable  */
 .main-menu li {
     display: inline-block;
     line-height: 79px;
-    margin-left: 15px;
+    margin-left: 14px;
     position: relative;
 }
 
