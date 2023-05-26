@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="shorcut icon" href="assets/images/programming-favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Conexión Educativa</title>
     
     <!-- Bootstrap CSS -->
@@ -68,9 +70,9 @@
         <div class="col-md-12">
           <div id='tabs'>
             <ul>
-              <li><a href='#tabs-1'>Best Education</a></li>
-              <li><a href='#tabs-2'>Top Management</a></li>
-              <li><a href='#tabs-3'>Quality Meeting</a></li>
+              <li><a href='#tabs-1'>Educación de Calidad</a></li>
+              <li><a href='#tabs-2'>Instructores expertos</a></li>
+              <li><a href='#tabs-3'>Comunidad de aprendizaje activa</a></li>
             </ul>
             <section class='tabs-content'>
               <article id='tabs-1'>
@@ -79,8 +81,8 @@
                     <img src="assets/images/choose-us-image-01.png" alt="">
                   </div>
                   <div class="col-md-6">
-                    <h4>Best Education</h4>
-                    <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. Feel free to use it for educational or commercial purposes. You may want to make <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a little donation</a> to TemplateMo. Please tell your friends about us. Thank you.</p>
+                    <h4>Mejor Educación</h4>
+                    <p>En nuestra academia de programación, ofrecemos la mejor educación en el campo de la programación y desarrollo de software. Nuestro enfoque se basa en brindar a nuestros estudiantes una experiencia de aprendizaje completa y de calidad, respaldada por instructores altamente calificados y una metodología pedagógica avanzada.</p>
                   </div>
                 </div>
               </article>
@@ -90,9 +92,9 @@
                     <img src="assets/images/choose-us-image-02.png" alt="">
                   </div>
                   <div class="col-md-6">
-                    <h4>Top Level</h4>
-                    <p>You can modify this HTML layout by editing contents and adding more pages as you needed. Since this template has options to add dropdown menus, you can put many HTML pages.</p> 
-                    <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
+                    <h4>Instructores expertos</h4>
+                    <p>Contamos con un equipo de instructores con amplia experiencia en la industria de la programación. Son profesionales en activo que conocen las últimas tendencias y tecnologías del sector. Están comprometidos en transmitir su conocimiento de manera clara y efectiva.</p> 
+                    <p>Nuestra academia utiliza una metodología pedagógica innovadora que combina teoría y práctica de manera equilibrada. </p>
                   </div>
                 </div>
               </article>
@@ -102,8 +104,8 @@
                     <img src="assets/images/choose-us-image-03.png" alt="">
                   </div>
                   <div class="col-md-6">
-                    <h4>Quality Meeting</h4>
-                    <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. For more information, you shall <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> now.</p>
+                    <h4>Comunidad de aprendizaje activa</h4>
+                    <p>Fomentamos un ambiente colaborativo y de apoyo, donde los estudiantes pueden interactuar entre sí y con los instructores. Organizamos actividades extracurriculares, hackathons y eventos de networking para que los estudiantes se conecten con profesionales de la industria y amplíen sus oportunidades.</p>
                   </div>
                 </div>
               </article>
@@ -171,7 +173,7 @@
                 </div>
                 <div class="col-md-12">
                   <fieldset>
-                    <button type="submit" id="form-submit" class="button">Anotate</button>
+                    <button id="form-submit" class="button">Anotate</button>
                   </fieldset>
                 </div>
               </div>
@@ -182,71 +184,35 @@
     </div>
   </section>
 
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+      <section class="modal-content">
+        <div class="modal-header">
+          <div class="icon-box">
+            <i class="material-icons">&#xE876;</i>
+          </div>
+          <h4 class="modal-title w-100"></h4>
+        </div>
+        <div class="modal-body">
+          <p class="text-center"></p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+
   <section class="section courses" data-section="section4">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Elegí tu curso o carrera</h2>
+            <h2>Elegi tu curso o carrera</h2>
           </div>
         </div>
-        <div class="owl-carousel owl-theme ">
-          <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="Course #1">
-            <div class="down-content">
-              <!-- Poner HTML en a href="" -->
-              <h4><a href="">Poner tu Curso</a></h4>
-              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-              <div class="text-button-pay">
-                <a href="#registro">Reserva ya <!-- <i class="fa fa-angle-double-right"></i> --></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-02.jpg" alt="">
-            <div class="down-content">
-              <!-- Poner HTML en a href="" -->
-              <h4><a href="">Poner tu Curso</a></h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-              <div class="text-button-free">
-                <a href="#registro">Gratis <!-- <i class="fa fa-angle-double-right"></i> --></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-03.jpg" alt="">
-            <div class="down-content">
-              <!-- Poner HTML en a href="" -->
-              <h4><a href="">Poner tu Curso</a></h4>
-              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-              <div class="text-button-pay">
-                <a href="#registro">Reserva ya <!-- <i class="fa fa-angle-double-right"></i> --></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-04.jpg" alt="">
-            <div class="down-content">
-              <!-- Poner HTML en a href="" -->
-              <h4><a href="">Poner Tu Curso</a></h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-              <div class="text-button-pay">
-                <a href="#registro">Reserva ya <!-- <i class="fa fa-angle-double-right"></i> --></a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/courses-01.jpg" alt="">
-            <div class="down-content">
-              <!-- Poner HTML en a href="" -->
-              <h4><a href="">Poner Tu Curso</a></h4>
-              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-              <div class="text-button-pay">
-                <a href="#registro">Reserva ya <!-- <i class="fa fa-angle-double-right"></i> --></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="owl-carousel owl-theme" ></div>
       </div>
     </div>
   </section>
@@ -261,7 +227,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <form id="contact" action="" method="post">
+          <form id="contact-end" action="" method="post">
             <div class="row">
               <div class="col-md-6">
                   <fieldset>
@@ -310,6 +276,7 @@
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/tabs.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script>
         //Navegacion por el Sitio
         $('.nav li:first').addClass('active');

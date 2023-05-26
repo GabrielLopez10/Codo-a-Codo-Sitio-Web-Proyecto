@@ -536,9 +536,49 @@ section.why-us {
   -moz-column-count: 3;
   column-count: 3;
   -webkit-column-gap: 0;
-  -moz-column-gap: 0;
+  -moz-column-gap: ;
   column-gap: 0;
 }
+
+@media screen and (max-width: 991px) {
+
+  #tabs ul {
+    margin: 0;
+    padding: 0;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 0;
+    -moz-column-gap: ;
+    column-gap: 0;
+    display: inline-flex;
+  }
+
+}
+
+@media screen and (max-width: 579px) {
+
+  #tabs ul {
+    margin-left: 10px;
+    padding-bottom: 3px;
+    display: inline-table;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 579px) {
+
+  #tabs li a {
+   margin-bottom: 60px;
+  }
+
+}
+
+
+
+
 #tabs ul::after {
   clear: both;
   content: "";
@@ -838,10 +878,12 @@ section.courses .item img {
 }
 
 section.courses .item .down-content {
-    padding: 30px;
+    padding: 50px; 
     background-color: #fff;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+
+
 }
 
 section.courses .item .down-content h4 {
@@ -869,7 +911,7 @@ section.courses .item .down-content img {
 section.courses .item .down-content .text-button-pay{
     float: left;
     display: inline-block;
-    margin-top: -10px;
+    margin-top: 1px;
     font-family: "JetBrains Mono", monospace;
     font-weight: 800;
 }
@@ -1108,4 +1150,103 @@ iframe {
     font-weight: 600;
     letter-spacing: 0.25px;
   }
+}
+
+.course-ul  {
+  margin-bottom: 15px;
+  font-size: 13px;
+  line-height: 22px;
+  color: rgb(60, 52, 173);
+}
+
+.course-ul::before {
+  content: "\2022"; /* Bullet character */
+  color: #c21616;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.modal-confirm {
+  color: #070404;
+  width: 325px;
+  font-size: 14px;
+}
+
+.modal-confirm .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.modal-confirm .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -15px;
+}
+
+.modal-confirm .form-control,
+.modal-confirm .btn {
+  min-height: 40px;
+  border-radius: 3px;
+}
+
+.modal-confirm .close {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.modal-confirm .modal-footer {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.modal-confirm .icon-box {
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -70px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 9;
+  background: #f5a425;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.modal-confirm .icon-box i {
+  font-size: 58px;
+  position: relative;
+  top: 3px;
+}
+
+.modal-confirm.modal-dialog {
+  margin-top: 80px;
+}
+
+.modal-confirm .btn {
+  color: #fff;
+  border-radius: 4px;
+  background: #1c0fdb;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border: none;
+}
+
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+  background: #f5a425;
+  outline: none;
 }
