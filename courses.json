@@ -1,0 +1,23 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Python Fundamentals",
+        "description": "Learn the basics of Python programming, including data types, control structures, and functions.",
+        "image": "https://example.com/python-fundamentals.jpg"
+      },
+      {
+        "id": 2,
+        "title": "JavaScript Basics",
+        "description": "Learn the basics of JavaScript programming, including variables, data types, and functions.",
+        "image": "https://example.com/javascript-basics.jpg"
+      },
+      {
+        "id": 3,
+        "title": "HTML Fundamentals",
+        "description": "Learn the basics of HTML programming, including elements, attributes, and styles.",
+        "image": "https://example.com/html-fundamentals.jpg"
+      }
+    ]
+  }
+  
