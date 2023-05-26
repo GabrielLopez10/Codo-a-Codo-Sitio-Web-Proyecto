@@ -540,6 +540,7 @@ section.why-us {
   column-gap: 0;
 }
 
+
 @media screen and (max-width: 991px) {
 
   #tabs ul {
@@ -575,7 +576,6 @@ section.why-us {
   }
 
 }
-
 
 
 
@@ -1129,7 +1129,7 @@ footer p a:hover {
 @media screen and (max-width: 767px){
   #map {
     position: relative;
-    padding-bottom: 78.5%; // This is the aspect ratio
+    padding-bottom: 78.5%; /* This is the aspect ratio */
     height: 0;
     overflow: hidden;
   }
