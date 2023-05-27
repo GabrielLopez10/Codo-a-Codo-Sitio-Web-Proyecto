@@ -4,10 +4,14 @@
 @import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">");
 
 
-]* {
-  box-sizing: border-box;
-  /* width: 100%; */
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    width: auto;
 }
+
 
 /* html {
   width: 100%;  
@@ -530,7 +534,7 @@ section.why-us {
   text-align: center;
 }
 #tabs ul {
-  margin: 0;
+  margin: 50px;
   padding: 0;
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -544,15 +548,7 @@ section.why-us {
 @media screen and (max-width: 991px) {
 
   #tabs ul {
-    margin: 0;
-    padding: 0;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-gap: 0;
-    -moz-column-gap: ;
-    column-gap: 0;
-    display: inline-flex;
+    column-gap: 30px;
   }
 
 }
@@ -560,7 +556,7 @@ section.why-us {
 @media screen and (max-width: 579px) {
 
   #tabs ul {
-    margin-left: 10px;
+    margin: 10px;
     padding-bottom: 3px;
     display: grid;
     flex-wrap: wrap;
@@ -588,11 +584,11 @@ section.why-us {
   display: block;
   font-weight: 400;
   font-size: 1.2em;
-  letter-spacing: 1px;
+  letter-spacing:1px;
   text-align: center;
 }
 #tabs ul li a {
-  display: block;
+  display: grid;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -661,30 +657,37 @@ section.why-us {
 
 .tabs-content {
     margin-top: 60px;
-    text-align: left;
+    text-align: center;
+    margin: 10%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   
   .tabs-content {
       text-align: center;
+      display: grid;
+      margin: 10%;
   }
 
 }
 
 .tabs-content img {
-    width: 100%;
+    width: 75%;
     overflow: hidden;
-    padding-right: 45px;
+    padding-right: 0px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
 
   .tabs-content img {
       padding-right: 0px;
+      width: 75%;
+     
   }
 
 }
+
+
 
 
 /* Coming Soon */

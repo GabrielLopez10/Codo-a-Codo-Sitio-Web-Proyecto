@@ -37,12 +37,12 @@
 
 /* ajustar header total */
 
-*,
+/* *,
 ::after,
 ::before {
     box-sizing: border-box;
-    width: auto;
-}
+    width: 50%;
+} */
 
 
  /* @media screen and (max-width:900px) {
